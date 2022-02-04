@@ -23,7 +23,7 @@ if(results.length > 0)
 {
     console.log(results);
     nose_X = results[0].pose.nose.x;
-    nose_Y = resulst[0].pose.nose.y;
+    nose_Y = results[0].pose.nose.y;
     left_Wrist_X = results[0].pose.leftWrist.x;
     right_Wrist_X = results[0].pose.rightWrist.x;
     difference = floor(left_Wrist_X - right_Wrist_X);
